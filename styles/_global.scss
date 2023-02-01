@@ -1,18 +1,18 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-    font-size: $header1;
+  font-size: $header1;
 }
 
 li,
@@ -21,35 +21,34 @@ label,
 input,
 a,
 p {
-    font-size: $text;
+  font-size: $text;
 }
 
 h2 {
-    font-size: $header2;
+  font-size: $header2;
 }
 
 h3 {
-    font-size: $header3;
+  font-size: $header3;
 }
 
 h4,
 h5 {
-    font-size: $header4;
+  font-size: $header4;
 }
 
 .flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: $gray-text;
+  text-decoration: none;
+  color: $gray-text;
 }
-
