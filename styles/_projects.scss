@@ -11,13 +11,9 @@
   }
 }
 
-.react-tenzies,
-.color-scheme,
-.candy-house,
-.web-profile,
-.new-project {
-  flex: 1 1 40rem;
-  margin: 3rem;
+.application {
+  flex: 1 1 70rem;
+  margin: 4rem;
 
   .description {
     width: 100%;
@@ -30,7 +26,8 @@
 
   img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    display: block;
     border-radius: 3rem;
     box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.2),
       0 0 10px 5px rgba(0, 0, 0, 0.067);
