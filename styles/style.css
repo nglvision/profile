@@ -305,6 +305,7 @@ nav ul {
   outline: none;
   border: 1px solid rgb(140, 141, 50);
   border-radius: 1rem;
+  text-indent: 1rem;
 }
 .form-section form input:focus,
 .form-section form text:focus {
@@ -319,6 +320,7 @@ nav ul {
   border: 1px solid rgb(140, 141, 50);
   border-radius: 1rem;
   margin: 2rem;
+  padding: 1rem;
 }
 .form-section form textarea:focus {
   outline: none;
